@@ -1,0 +1,19 @@
+Package: enrichR
+Title: Append Biocultural (BK) labesl to DSI
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Jacob",
+           family = "Golan",
+           role = c("aut","cre"),
+           email = 'jjg384@nyu.edu',
+           comment = c(ORCID = "0000-0002-9127-1329"))
+Description: Appends Biocultural (BK) labesl to DSI by interfacing with user input sequences and the Local Contexts Hub API.
+Imports: 
+  jsonlite,
+  httr,
+  seqinr
+License: CC BY 4.0
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
